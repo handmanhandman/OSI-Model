@@ -1,15 +1,15 @@
-Understanding the OSI Model
+# Understanding the OSI Model
 
-In this blog, we will explain how data travels through a network and how each layer is responsible for sending and receiving information.
+*In this blog, we will explain how data travels through a network and how each layer is responsible for sending and receiving information.*
 
-Every piece of data passes through seven layers. Technically, the OSI model provides a standard way for networks to send and receive information, and it is also widely used to troubleshoot network issues.
+*Every piece of data passes through seven layers. Technically, the OSI model provides a standard way for networks to send and receive information, and it is also widely used to troubleshoot network issues.*
 
-The OSI model has seven layers, and each layer adds its own header (and sometimes footer) to the data before passing it to the next layer. Each layer has a different job, and the responsibilities of one layer do not interfere with the others.
+*The OSI model has seven layers, and each layer adds its own header (and sometimes footer) to the data before passing it to the next layer. Each layer has a different job, and the responsibilities of one layer do not interfere with the others.*
 
 
 ---
 
-The Seven Layers of the OSI Model
+## The Seven Layers of the OSI Model
 
 1. Application Layer
 This is the layer closest to the user. It provides services like web browsing (HTTP), email (SMTP), and file transfer (FTP).
@@ -35,6 +35,6 @@ This layer deals with the actual transmission of bits (0s and 1s) over physical 
 
 ---
 
-Conclusion
+### Conclusion
 
 The OSI model is a fundamental concept in networking. It breaks down communication into seven layers, each with its own responsibility. By understanding these layers, network engineers can easily design, manage, and troubleshoot networks.
